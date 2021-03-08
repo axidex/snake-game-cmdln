@@ -1,6 +1,7 @@
 #include <iostream>
 #include<conio.h>
 #include <windows.h>
+#include <ctime>
 
 using namespace std;
 
@@ -154,6 +155,7 @@ void Logic ()
 }
 int main ()
 {
+    srand (time(NULL));
     Setup();
     while(!gameover)
     {
